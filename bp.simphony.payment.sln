@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bp.simphony.payment.prisma.configuration", "bp.simphony.prisma\bp.simphony.payment.prisma.configuration\bp.simphony.payment.prisma.configuration.csproj", "{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bp.simphony.payment.prisma", "bp.simphony.prisma\bp.simphony.payment.ExtApp\bp.simphony.payment.prisma.csproj", "{73D49376-F079-4AC7-9D1E-3636CFBD7E31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|x64.Build.0 = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Debug|x86.Build.0 = Debug|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|x64.Build.0 = Release|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|x86.ActiveCfg = Release|Any CPU
+		{6A3D5AF9-41AA-4E8B-B6F7-2F76F4777984}.Release|x86.Build.0 = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|x64.Build.0 = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Debug|x86.Build.0 = Debug|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|x64.ActiveCfg = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|x64.Build.0 = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|x86.ActiveCfg = Release|Any CPU
+		{73D49376-F079-4AC7-9D1E-3636CFBD7E31}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE8840E5-A2DF-47A2-B434-BB9F1FE3FC20}
+	EndGlobalSection
+EndGlobal
