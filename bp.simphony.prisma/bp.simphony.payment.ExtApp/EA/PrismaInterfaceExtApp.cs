@@ -733,13 +733,13 @@ namespace TWS.Simphony.MP.Payment
 
                 List<OpsSelectionEntry> entryList = new List<OpsSelectionEntry>();
                 entryList.Add(new OpsSelectionEntry(0, "-- Detectar Tarjeta --", 0));
-                for (int index = 1; index <= mCardDefList.Count; index++)
-                    entryList.Add(new OpsSelectionEntry(index , mCardDefList[index].IssuerName, index));
+                for (int index = 0; index < mCardDefList.Count; index++)
+                    entryList.Add(new OpsSelectionEntry(index + 1, mCardDefList[index].IssuerName, index));
 
                 int selectedOption = OpsContext.SelectionRequest("Tarjetas", "Seleccione Tarjeta", entryList) ?? -1;
 
                 if (selectedOption > 0 )
-                    retVal = mCardDefList[selectedOption].IssuerCode.TrimStart('0');
+                    retVal = mCardDefList[selectedOption-1].IssuerCode.TrimStart('0');
             }
             catch (Exception ex)
             { 
